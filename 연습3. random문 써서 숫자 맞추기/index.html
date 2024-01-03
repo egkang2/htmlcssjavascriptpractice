@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Game</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Random Number Game</h1>
+    <div class="number_boundary">
+      Generate a number between 0 and
+      <span class="search">
+        <input type="number" id="numberInput" />
+      </span>
+    </div>
+    <div class="guess-section">
+      Guess the number:
+      <span class="search">
+        <input type="number" id="guessInput" />
+      </span>
+      <span class="clickbutton">
+        <button>play!</button>
+      </span>
+      <div class="result_space"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
